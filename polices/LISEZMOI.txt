@@ -1,0 +1,4 @@
+Latin Modern Roman (GUST e-foundry), fichiers non modifiés, GUST Font License :
+https://www.gust.org.pl/projects/e-foundry/licenses
+
+Damion (copiée de theme/polices à la génération), SIL Open Font License.
