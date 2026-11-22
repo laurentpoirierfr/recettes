@@ -26,8 +26,8 @@
     return s.replace(/'/g, "’")
       .replace(/ ([;!?])/g, " $1")
       .replace(/ :/g, NB + ":")
-      .replace(/(\d) (h|g|kg|mm|ml|cl|l|min)(?![\wÀ-ÿ])/g, "$1" + NB + "$2")
-      .replace(/(\d) (%|°C|minutes)/g, "$1" + NB + "$2")
+      .replace(/(\d) (h|g|kg|mm|cm|ml|cl|l|min)(?![\wÀ-ÿ])/g, "$1" + NB + "$2")
+      .replace(/(\d) (%|°C|minute|heure)/g, "$1" + NB + "$2")
       .replace(/(^|[^\wÀ-ÿ])h (\d)/g, "$1h" + NB + "$2");
   }
 

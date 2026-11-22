@@ -4,7 +4,7 @@
   function tous(s) { return Array.prototype.slice.call(document.querySelectorAll(s)); }
 
   // Même parade que typo.html pour l'insécable trop large de Latin Modern
-  function insecable(s) { return s.replace(/\u00a0/g, "\u2060 \u2060"); }
+  function insecable(s) { return s.replace(/\u00a0/g, "\u202f"); }
 
   // Portions
   var bloc = $(".ingredients");
